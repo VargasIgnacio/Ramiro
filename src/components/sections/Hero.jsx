@@ -5,6 +5,7 @@ import { RiCodeSSlashLine } from "react-icons/ri";
 import { MdDashboard } from "react-icons/md";
 import { PiDatabaseLight } from "react-icons/pi";
 import { HiOutlineChip } from "react-icons/hi";
+import { useTranslation } from 'react-i18next'; // Asegúrate de importar el hook useTranslation
 
 const scrollToSection = (id) => {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -25,12 +26,14 @@ const staggerContainer = {
 };
 
 const Hero = () => {
+  const { t } = useTranslation(); // Asegúrate de usar useTranslation aquí para acceder a las traducciones
+
   return (
     <section className="min-h-screen flex justify-center items-center px-4 relative">
       <Navbar
         onScrollToAbout={() => scrollToSection('about')}
         onScrollToProjects={() => scrollToSection('projects')}
-        onScrollToContact={() => scrollToSection('contact')}     
+        onScrollToContact={() => scrollToSection('contact')}
       />
 
       <motion.div
@@ -44,7 +47,7 @@ const Hero = () => {
           variants={fadeUp}
           transition={{ duration: 0.6 }}
         >
-          Ramiro Borello
+          {t('hero.name')} {/* Correcto: t() para obtener la traducción */}
         </motion.h1>
 
         <motion.h2
@@ -52,7 +55,7 @@ const Hero = () => {
           variants={fadeUp}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          Desarrollador de Software & Admin. de Sistemas
+          {t('hero.jobTitle')} {/* Correcto: t() para obtener la traducción */}
         </motion.h2>
 
         <motion.p
@@ -60,15 +63,14 @@ const Hero = () => {
           variants={fadeUp}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Combino conocimientos en programación, bases de datos y redes<br />
-          para construir soluciones funcionales y escalables.
+          {t('hero.description')} {/* Correcto: t() para obtener la traducción */}
         </motion.p>
 
         <motion.div
           className="flex flex-wrap justify-center gap-4 pt-4 cursor-default"
           variants={staggerContainer}
         >
-          {[
+          {[ 
             { aptitudes: 'JavaScript', icon: <RiCodeSSlashLine /> },
             { aptitudes: 'MySQL', icon: <PiDatabaseLight /> },
             { aptitudes: 'Java', icon: <HiOutlineChip /> },
@@ -87,21 +89,24 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 pt-6">
           <motion.button
+            onClick={() => scrollToSection('projects')}
             className="text-neutral-400 hover:text-neutral-100 
              bg-[#00a8e8]/50 hover:bg-[#0094cc] transition-all backdrop-blur-[10px] duration-500 px-6 py-2 rounded-full font-semibold shadow-md cursor-pointer"
             variants={fadeUp}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Ver Experiencia
+            {t('hero.experienceButton')} {/* Correcto: t() para obtener la traducción */}
           </motion.button>
 
-          <motion.button
+          <motion.a
+            href="/CV-Ramiro-Borello.pdf" // ACA VA LA RUTA DEL CV DE RAMA
+            download
             className="text-neutral-400 backdrop-blur-[10px] hover:text-neutral-200 border cursor-pointer border-neutral-600 px-6 py-2 rounded-full font-semibold hover:bg-neutral-800 transition-all duration-500"
             variants={fadeUp}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            Descargar CV
-          </motion.button>
+            {t('hero.downloadButton')} {/* Correcto: t() para obtener la traducción */}
+          </motion.a>
         </div>
       </motion.div>
     </section>

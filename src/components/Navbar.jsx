@@ -12,7 +12,7 @@ const Navbar = ({ onScrollToAbout, onScrollToProjects, onScrollToContact }) => {
       const currentScrollY = window.scrollY;
       if (currentScrollY > lastScrollY && currentScrollY > 50) {
         setShowHeader(false);
-        setMenuOpen(false); // cierra el menú si hacés scroll
+        setMenuOpen(false); 
       } else {
         setShowHeader(true);
       }
@@ -35,11 +35,11 @@ const Navbar = ({ onScrollToAbout, onScrollToProjects, onScrollToContact }) => {
           <img src="R . B 2.png" alt="Logo" />
         </div>
 
-        {/* Desktop nav */}
+        
         <nav className="hidden md:flex space-x-6 text-neutral-300 font-pl font-bold text-sm">
-          <button onClick={() => handleNavClick(onScrollToAbout)} className="hover:text-[#00a8e8] transition-all">Sobre mí</button>
-          <button onClick={() => handleNavClick(onScrollToProjects)} className="hover:text-[#00a8e8] transition-all">Experiencia</button>
-          <button onClick={() => handleNavClick(onScrollToContact)} className="hover:text-[#00a8e8] transition-all">Contacto</button>
+          <button onClick={() => handleNavClick(onScrollToAbout)} className="hover:text-[#00a8e8] cursor-pointer transition-all">Sobre mí</button>
+          <button onClick={() => handleNavClick(onScrollToProjects)} className="hover:text-[#00a8e8] cursor-pointer transition-all">Experiencia</button>
+          <button onClick={() => handleNavClick(onScrollToContact)} className="hover:text-[#00a8e8] cursor-pointer transition-all">Contacto</button>
           <a href="https://www.linkedin.com/in/ramiro-borello-991989342/" target="_blank" rel="noopener noreferrer" className="hover:text-[#00a8e8] transition-all">
             Linkedin
           </a>
@@ -57,7 +57,7 @@ const Navbar = ({ onScrollToAbout, onScrollToProjects, onScrollToContact }) => {
         </div>
       </div>
 
-      {/* Animated mobile menu */}
+      
       <AnimatePresence>
   {menuOpen && (
     <motion.div

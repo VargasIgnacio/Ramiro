@@ -30,9 +30,13 @@ const About = () => {
       </p>
 
       <p data-aos="fade-up" className="mb-5 leading-relaxed">
-        También cuento con conocimientos en <span className="text-white font-medium">mantenimiento de computadoras y redes</span>, lo cual me permite abordar problemas tecnológicos de forma integral.
+      Además, soy <span className='text-[#00a8e8] font-medium'>técnico en electrónica</span>, lo que complementa mi perfil con una sólida base en sistemas y hardware. También tengo manejo de sistemas operativos <span className='text-white font-medium'>Linux</span>, lo cual me permite desenvolverme con soltura en entornos de desarrollo y administración más especializados.
       </p>
-
+      
+      <p data-aos="fade-up" className="mb-5 leading-relaxed">
+      Cuento con conocimientos en <span className='text-white font-medium'>mantenimiento de computadoras y redes</span>, lo cual me permite abordar problemas tecnológicos de forma integral.
+      </p>
+      
       <p data-aos="fade-up" className="mb-5 leading-relaxed">
         Me apasiona mejorar continuamente mis habilidades tanto en el <span className="text-[#00a8e8] font-semibold">frontend</span> como en el <span className="text-[#00a8e8] font-semibold">backend</span>, y en la optimización de infraestructuras digitales.
       </p>

@@ -18,7 +18,7 @@ const Footer = () => {
 
       
         <div className="flex gap-5 text-xl text-neutral-400">
-          <a href="ramiroborello2@gmail.com" className="hover:text-[#0094cc] transition">
+          <a href="mailto:ramiroborello2@gmail.com" className="hover:text-[#0094cc] transition">
             <FiMail />
           </a>
           <a href="https://www.linkedin.com/in/ramiro-borello-991989342/" target="_blank" rel="noopener noreferrer" className="hover:text-[#0094cc] transition">
