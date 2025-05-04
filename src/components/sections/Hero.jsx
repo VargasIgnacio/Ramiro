@@ -95,17 +95,17 @@ const Hero = () => {
             variants={fadeUp}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            {t('hero.experienceButton')} {/* Correcto: t() para obtener la traducción */}
+            {t('hero.experienceButton')} 
           </motion.button>
 
           <motion.a
-            href="/CV-Ramiro-Borello.pdf" // ACA VA LA RUTA DEL CV DE RAMA
+            href="/RamiroBorelloCV.pdf"
             download
             className="text-neutral-400 backdrop-blur-[10px] hover:text-neutral-200 border cursor-pointer border-neutral-600 px-6 py-2 rounded-full font-semibold hover:bg-neutral-800 transition-all duration-500"
             variants={fadeUp}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            {t('hero.downloadButton')} {/* Correcto: t() para obtener la traducción */}
+            {t('hero.downloadButton')} 
           </motion.a>
         </div>
       </motion.div>
