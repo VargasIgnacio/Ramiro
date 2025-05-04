@@ -1,10 +1,115 @@
 {
-    "hero": {
-      "name": "Ramiro Borello",
-      "jobTitle": "Desarrollador de Software & Admin. de Sistemas",
-      "description": "Combino conocimientos en programación, bases de datos y redes para construir soluciones funcionales y escalables.",
-      "experienceButton": "Ver Experiencia",
-      "downloadButton": "Descargar CV"
+  "hero": {
+    "name": "Ramiro Borello",
+    "jobTitle": "Desarrollador de Software & Admin. de Sistemas",
+    "description": "Combino conocimientos en programación, bases de datos y redes para construir soluciones funcionales y escalables.",
+    "experienceButton": "Ver Experiencia",
+    "downloadButton": "Descargar CV"
+  },
+
+  "about": {
+    "title": "Sobre mí",
+    "paragraph1": "Soy un <1>desarrollador junior</1> con experiencia en la creación de aplicaciones web utilizando tecnologías como <3>Angular</3>, <5>JavaScript</5>, <7>MySQL</7> y <9>Java</9>.",
+    "paragraph2": "Además, soy <1>técnico en electrónica</1>, lo que complementa mi perfil con una sólida base en sistemas y hardware. También tengo manejo de sistemas operativos <3>Linux</3>, lo cual me permite desenvolverme con soltura en entornos de desarrollo y administración más especializados.",
+    "paragraph3": "Cuento con conocimientos en <1>mantenimiento de computadoras y redes</1>, lo cual me permite abordar problemas tecnológicos de forma integral.",
+    "paragraph4": "Me apasiona mejorar continuamente mis habilidades tanto en el <1>frontend</1> como en el <3>backend</3>, y en la optimización de infraestructuras digitales.",
+    "paragraph5": "Mi objetivo es crecer como profesional, aportando <1>soluciones eficientes</1> y fomentando el <3>trabajo en equipo</3> en cada proyecto."
+  },
+
+  "projects": {
+    "title": "Formación Académica",
+    "aptitudesTitle": "Aptitudes",
+    "education": [
+      {
+        "estado": "Terminado",
+        "titulo": "Tecnicatura en Programación",
+        "institucion": "Universidad Tecnológica Nacional",
+        "fecha": "Marzo 2023 - Diciembre 2024"
+      },
+      {
+        "estado": "Terminado",
+        "titulo": "Capacitación, Locución",
+        "institucion": "Universidad Tecnológica Nacional",
+        "fecha": "Abril 2024 - Junio 2024"
+      }
+    ],
+    "skills": [
+      {
+        "titulo": "Tech Stack",
+        "aptitudes": [
+          {
+            "nombre": "JavaScript",
+            "detalle": "Lógica de front-end, interactividad"
+          },
+          {
+            "nombre": "Angular",
+            "detalle": "Componentes, rutas y consumo de APIs"
+          },
+          {
+            "nombre": "MySQL",
+            "detalle": "Consultas y modelado de bases de datos"
+          },
+          {
+            "nombre": "Java",
+            "detalle": "POO y desarrollo backend básico"
+          }
+        ]
+      },
+      {
+        "titulo": "Soft Skills",
+        "aptitudes": [
+          {
+            "nombre": "Mantenimiento de PC",
+            "detalle": "Reparación y soporte básico de equipos"
+          },
+          {
+            "nombre": "Proactividad",
+            "detalle": "Iniciativa para resolver tareas sin supervisión"
+          },
+          {
+            "nombre": "Trabajo en Equipo",
+            "detalle": "Colaboración efectiva en entornos grupales"
+          },
+          {
+            "nombre": "Autodidacta",
+            "detalle": "Aprendizaje continuo por cuenta propia"
+          }
+        ]
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "¿Querés contarme tu idea o hacerme una consulta? \nMandame un mensaje, ¡te leo!",
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Tu Nombre completo",
+      "emailLabel": "Email",
+      "emailPlaceholder": "TuEmail@gmail.com",
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "Motivo de tu consulta",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Escribe tu mensaje aquí (máx. 500 caracteres)",
+      "submitSending": "Enviando...",
+      "submit": "Enviar Mensaje",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Hubo un error. Intenta más tarde."
     }
-  }
+  },
+
+  "footer": {
+    "projectMessage": "Tu proyecto, desarrollado con compromiso y precisión.",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "developedBy": "Desarrollado por KIAD"
+  },
+
   
+    "navbar": {
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    }
+  
+  
+}

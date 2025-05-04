@@ -1,10 +1,115 @@
 {
-    "hero": {
-      "name": "Ramiro Borello",
-      "jobTitle": "Software Developer & Systems Admin",
-      "description": "I combine knowledge in programming, databases, and networks to build functional and scalable solutions.",
-      "experienceButton": "View Experience",
-      "downloadButton": "Download CV"
+  "hero": {
+    "name": "Ramiro Borello",
+    "jobTitle": "Software Developer & Systems Admin",
+    "description": "I combine knowledge in programming, databases, and networks to build functional and scalable solutions.",
+    "experienceButton": "View Experience",
+    "downloadButton": "Download CV"
+  },
+
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I am a <1>junior developer</1> with experience in building web applications using technologies such as <3>Angular</3>, <5>JavaScript</5>, <7>MySQL</7>, and <9>Java</9>.",
+    "paragraph2": "In addition, I am an <1>electronics technician</1>, which complements my profile with a strong foundation in systems and hardware. I also have experience with <3>Linux</3> operating systems, allowing me to work effectively in more specialized development and administration environments.",
+    "paragraph3": "I have knowledge in <1>computer and network maintenance</1>, which allows me to approach technological problems in a comprehensive way.",
+    "paragraph4": "I am passionate about continuously improving my skills in both <1>frontend</1> and <3>backend</3> development, as well as optimizing digital infrastructures.",
+    "paragraph5": "My goal is to grow professionally, providing <1>efficient solutions</1> and promoting <3>teamwork</3> in every project."
+  },
+
+  "projects": {
+    "title": "Academic Background",
+    "aptitudesTitle": "Skills",
+    "education": [
+      {
+        "estado": "Completed",
+        "titulo": "Technical Degree in Programming",
+        "institucion": "National Technological University",
+        "fecha": "March 2023 - December 2024"
+      },
+      {
+        "estado": "Completed",
+        "titulo": "Voiceover Training",
+        "institucion": "National Technological University",
+        "fecha": "April 2024 - June 2024"
+      }
+    ],
+    "skills": [
+      {
+        "titulo": "Tech Stack",
+        "aptitudes": [
+          {
+            "nombre": "JavaScript",
+            "detalle": "Front-end logic, interactivity"
+          },
+          {
+            "nombre": "Angular",
+            "detalle": "Components, routing and API consumption"
+          },
+          {
+            "nombre": "MySQL",
+            "detalle": "Queries and database modeling"
+          },
+          {
+            "nombre": "Java",
+            "detalle": "OOP and basic backend development"
+          }
+        ]
+      },
+      {
+        "titulo": "Soft Skills",
+        "aptitudes": [
+          {
+            "nombre": "PC Maintenance",
+            "detalle": "Repair and basic equipment support"
+          },
+          {
+            "nombre": "Proactivity",
+            "detalle": "Initiative to solve tasks without supervision"
+          },
+          {
+            "nombre": "Teamwork",
+            "detalle": "Effective collaboration in group environments"
+          },
+          {
+            "nombre": "Self-taught",
+            "detalle": "Continuous self-learning"
+          }
+        ]
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Want to share your idea or ask me something? \nSend me a message, I'll read it!",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "YourEmail@gmail.com",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Reason for your inquiry",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here (max. 500 characters)",
+      "submitSending": "Sending...",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "There was an error. Please try again later."
+    }
+  },
+
+  "footer": {
+    "projectMessage": "Your project, developed with commitment and precision.",
+    "allRightsReserved": "All rights reserved.",
+    "developedBy": "Developed by KIAD"
+  },
+
+  
+    "navbar": {
+      "about": "About Me",
+      "experience": "Experience",
+      "contact": "Contact"
     }
   }
   
+
